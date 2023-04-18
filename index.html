@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Reservas MI NEGOCIO</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+
+  <body>
+    <form action="" class="formulario">
+
+
+      <label for="cliente" class="formulario__label">¿Cuál es tu nombre?</label>
+      <input
+        id="cliente"
+        type="text"
+        class="formulario__input"
+      />
+
+      <label for="fecha" class="formulario__label"
+        >Teléfono</label>
+      <input
+        id="telefono"
+        type="text"
+        class="formulario__input"
+      />
+
+      <label for="fecha" class="formulario__label">Mensaje:</label>
+      <textarea
+        id="mensaje"
+        rows="10"
+        aria-invalid="false"
+        class="formulario__input"
+        placeholder="escriba aqui su mensaje"
+      ></textarea>
+
+      <div id="respuesta"></div>
+
+      <button id="submit" class="formulario__submit">Enviar a WhatsApp</button>
+    </form>
+    <script src="js/form.js"></script>
+  </body>
+
+</html>
